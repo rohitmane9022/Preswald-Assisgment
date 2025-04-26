@@ -1,0 +1,20 @@
+[project]
+title = "My Budget Analysis App"
+version = "0.1.0"
+port = 8501
+slug = "budget-analysis-app"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "My Budget Analysis App"
+logo = "images/logo.png"
+favicon = "images/new-favicon.ico"
+primaryColor = "#4CAF50"
+
+[data.budget_csv]
+type = "csv"
+path = "data/budget.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
